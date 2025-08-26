@@ -35,6 +35,8 @@ app.get("/send-alert", (req, res) => {
 app.get("/send-notification", (req, res) => {
   const notification = notifications[Math.floor(Math.random() * notifications.length)];
   broadcastNotification(notification);
+  console.log('notification', notification);
+  
   res.json({ success: true, message: "Notification sent manually!", notification });
 });
 
