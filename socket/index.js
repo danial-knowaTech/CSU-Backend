@@ -25,6 +25,8 @@ module.exports = (server) => {
 
   // Function to broadcast alerts
   function broadcastAlert(alert) {
+    console.log('elert', alert);
+    
     io.emit("alert", {
       ...alert,
       id: uuidv4(),
@@ -50,7 +52,7 @@ module.exports = (server) => {
 
     console.log("📢 Sent alert:", alert.title);
     alertIndex = (alertIndex + 1) % alerts.length;
-  }, 2 * 60 * 1000);
+  }, 1000);
 
   // Send notifications every 1 minute
   setInterval(() => {
