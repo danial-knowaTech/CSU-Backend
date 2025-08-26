@@ -1,0 +1,38 @@
+[
+    {
+        "type": "murder",
+        "title": "Premeditated Murder Alert",
+        "location": {
+            "lat": 32.1022,
+            "lng": 74.8712,
+            "stationName": "City Lahore",
+            "address": "ABC Bazar, Valgi Market, Narowal"
+        },
+        "timestamp": "2m ago",
+        "priority": "high"
+    },
+    {
+        "type": "explosion",
+        "title": "Explosion Risk",
+        "location": {
+            "lat": 32.1022,
+            "lng": 74.8712,
+            "stationName": "City Khanewal",
+            "address": "ABC Bazar, Valgi Market, Narowal"
+        },
+        "timestamp": "2m ago",
+        "priority": "high"
+    },
+    {
+        "type": "theft",
+        "title": "Petty Theft Alert",
+        "location": {
+            "lat": 31.1822,
+            "lng": 74.8712,
+            "stationName": "City Sheikhupura",
+            "address": "Main Street, Sheikhupura"
+        },
+        "timestamp": "2m ago",
+        "priority": "high"
+    }
+]

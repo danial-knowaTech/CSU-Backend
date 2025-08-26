@@ -1,0 +1,26 @@
+[
+    {
+        "type": "alert",
+        "title": "Fire Alert",
+        "location": {
+            "lat": 32.1022,
+            "lng": 74.8712,
+            "stationName": "City Narowal",
+            "address": "ABC Bazar, Valgi Market, Narowal"
+        },
+        "timestamp": "2m ago",
+        "priority": "medium"
+    },
+    {
+        "type": "alert",
+        "title": "Power Outrage",
+        "location": {
+            "lat": 32.1022,
+            "lng": 74.8712,
+            "stationName": "City Narowal",
+            "address": "ABC Bazar, Valgi Market, Narowal"
+        },
+        "timestamp": "2m ago",
+        "priority": "medium"
+    }
+]
