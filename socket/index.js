@@ -49,7 +49,7 @@ module.exports = (server) => {
     broadcastAlert(alert);
     console.log("📢 Sent alert:", alert.title);
     alertIndex = (alertIndex + 1) % alerts.length;
-  }, 5 * 60 * 1000);
+  }, 15 * 60 * 1000);
 
   setInterval(() => {
     if (notifications.length === 0) return;
@@ -59,7 +59,7 @@ module.exports = (server) => {
       console.log("📢 Sent notification:", notificationData.title);
     }
     notificationIndex = (notificationIndex + 1) % notifications.length;
-  }, 3 * 60 * 1000);
+  }, 20 * 60 * 1000);
 
   // Return io and functions so app.js can use them
   return { io, broadcastAlert, broadcastNotification, alerts, notifications };
